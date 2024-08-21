@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/* -----------button-section------------- */
+.header-button-section,.hero-section-button,.about-left-button-section ,.reservation-button{
+  background-color:rgba(255, 166, 0, 0.734);
+  color:rgb(255, 255, 255);
+  padding: 9px 19px;
+  border: none;
+  border-radius: 9px;
+}
+.header-button-section:hover{
+  background-color: orange;
+  transition: 0.5s;
+}
+/* -----------header-section----------- */
+.header-button-section button{
+  background-color: orange;
+}
+.main{
+  background: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../taskex/bootstrap-restaurant-template/img/bg-hero.jpg  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header .row h1{
+  color: rgb(237, 89, 9);
+}
+.nav-list{
+  color: #ffff;
+  font-weight: 500;
+}
+.nav-list:hover{
+  color: orange;
+  transition: 0.30s;
+}
+.div{
+  float: right;
+  }
+  .menu-sym img{
+  height: 50px;
+  width: 50px;
+  } 
+.dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+/* <!-- ----------------hero-section--------------- --> */
+
+.hero-section-col h2 {
+  color: #ffff;
+  font-size: 52px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.hero-section-col p{
+  color: #ffff;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+.hero-section-col button{
+  padding: 15px 50px;
+  border-radius: 5px;
+}
+.hero-section-button:hover{
+  background-color: orange;
+  transition: 0.5s;
+}
+.hero-section-img img{
+  animation: img-rotation 50s linear infinite;
+}
+@keyframes img-rotation {
+  100%{
+    transform:rotate(360deg);
+  }    
+}
+/* <!-- ---------card-section------------- --> */
+.card-col1 ,.card-col2 ,.card-col3 ,.card-col4 {
+  background-color:aliceblue;
+}
+.card-col1 img ,.card-col2 img ,.card-col3 img ,.card-col4 img{
+  height: 50px;
+  width: 50px;
+}
+.card-col1 h5 ,.card-col2 h5 ,.card-col3 h5 ,.card-col4 h5{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card-col1 p ,.card-col2 p ,.card-col3 p ,.card-col4 p{
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.card-col1:hover{
+  background-color: orange;
+  color: #ffff;
+  transform: 50s;
+}
+.card-col2:hover{
+  background-color: orange;
+  color: #ffff;
+  transform: 50s;
+}
+.card-col3:hover{
+  background-color: orange;
+  color: #ffff;
+  transform: 50s;
+}
+.card-col4:hover{
+  background-color: orange;
+  color: #ffff;
+  transform: 50s;
+}
+/* <!-- ------------------about us----------------- --> */
+
+.left-section-about-section h5 ,.food-menu-headings ,.reservation-col2 h3 ,.team-headline h3 ,.testimonial-headings h3{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+
+.about-left-button-section{
+  padding: 15px 45px;
+}
+.about-left-button-section:hover{
+  background-color: orange;
+  transition: 0.5s;
+}
+/* <!-- ---------------food-menu----------------- --> */
+.menu-items img{
+  height: 30px;
+  width: 30px;
+}
+/* <!-- -----------reservation-section--------------- --> */
+.reservation-button:hover{
+  background-color: orange;
+  transition: 0.5s;
+}
+/* <!-- ----------team-members------------- --> */
+/* <!-- -----------testimonial-section------------ --> */
+.testimonial-card-col1:hover{
+  background-color: orange;
+  transition: 0.5s;
+  color: #ffff;
+}
+.testimonial-card-col2:hover{
+  background-color: orange;
+  transition: 0.5s;
+  color: #ffff;
+}
+.testimonial-card-col3:hover{
+  background-color: orange;
+  transition: 0.5s;
+  color: #ffff;
+}
